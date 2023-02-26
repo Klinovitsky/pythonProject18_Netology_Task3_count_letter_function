@@ -8,8 +8,8 @@ def count_letter(words_list, letter):
   # Check the number of words
   for word in words_list:
     if letter in word:
-      print("------------- LETTER cycle: ", word, letter, result)
       result += 1
+      print("------------- LETTER cycle: ", word, letter, result)
   return result
 
 number = count_letter(words_list, letter)
